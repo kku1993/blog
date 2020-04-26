@@ -24,7 +24,7 @@ github_username: kku1993
 linkedin_username: kku1993
 google_analytics: UA-164615638-1
 
-permalink: /:year/:month/:day/:title:output_ext
+permalink: /posts/:year/:month/:day/:title:output_ext
 show_excerpts: true
 header_pages:
   - about.md
