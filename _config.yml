@@ -27,6 +27,7 @@ google_analytics: UA-164615638-1
 show_excerpts: true
 header_pages:
   - about.md
+  - projects.md
 
 # Build settings
 markdown: kramdown
