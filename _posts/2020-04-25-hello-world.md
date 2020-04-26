@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hello World!"
-date:   2020-04-25 17:10:10 -0700
+date:   2020-04-25
 description: An introduction to this blog.
 categories: general
 ---

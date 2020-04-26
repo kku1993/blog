@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Scholar Meets Soldier"
-date:   2020-04-26 13:48:15 -0700
+date:   2020-04-26
 categories: thoughts
 ---
 
