@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 
-### PrivacyProxy
+### PrivacyProxy (2015-2016)
 
 - My senior thesis at CMU, advised by [Prof. Jason
   Hong](http://www.cs.cmu.edu/~jasonh/) and [Prof. Yuvraj
@@ -14,7 +14,7 @@ permalink: /projects/
 - Winner of the Alumni Award for Undergraduate Excellence.
 - Link: [Thesis Abstract](https://www.csd.cs.cmu.edu/thesis_topics/Kevin_Ku)
 
-### PrivacyGrade.org
+### PrivacyGrade.org (2014-2015)
 
 - A project from the [CMU CHIMPS Lab](https://github.com/CMUChimpsLab) that
   scored Android apps based on how well they respect user’s privacy.
@@ -22,7 +22,7 @@ permalink: /projects/
   analysis.
 - Link: [PrivacyGrade.org](http://privacygrade.org/)
 
-### Chinese Calligraphy App
+### Chinese Calligraphy App (2013)
 
 - Helped an university in Taiwan to port an app for teaching Chinese Calligraphy
   from Windows to Android.
@@ -31,23 +31,23 @@ permalink: /projects/
 - Designed a new interface in Android while interfacing with existing code
   written in C++.
 
-### Underwater Remotely Operated Vehicle (ROV)
+### Underwater Remotely Operated Vehicle (ROV) (2010-2012)
 - Captain for an underwater ROV team participating in the
   [MATE](http://www.marinetech.org/) competition.
 - Designed our own waterproof components such as cameras and on-board circuitry
   to accomplish various tasks in a simulated underwater oil leak.
 - Link: [Presentation](https://sites.google.com/site/tigersharksrov/)
 
-### Facebook Terminal
+### Facebook Terminal (2013)
 - A "geek-friendly" interface for Facebook.
 - Built a javascript app that presents a shell-like interface in which users can
   access Facebook by issuing commands such as ls, cd, mv, etc.
 
-### Photo Ordering Website
+### Photo Ordering Website (2010-2012)
 - A website for students at my high school to shop prom photos online.
 - Users can tag their friends in photos so it's easier to find them.
 
-### Volume Control
+### Volume Control (2010)
 - An Android app that automatically changes the phone's volume when the user
   plugs in their earphone.
 - Created before such feature was widely available on Android devices.
