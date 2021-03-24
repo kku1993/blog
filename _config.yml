@@ -16,7 +16,7 @@
 title: The Thoughtful Koala
 tagline: Thoughts on Tech and Beyond
 description: >- # this means to ignore newlines until "baseurl:"
-  A collection of ideas and tips on working with software and technology,
+  A collection of thoughts and tips on technology,
   sprinkled with occasional editorials.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://thethoughtfulkoala.com" # the base hostname & protocol for your site, e.g. http://example.com
