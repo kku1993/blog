@@ -30,6 +30,7 @@ source ~/.bashrc
 gem install bundler
 
 cd blog
+bundle config set --local path 'vendor/bundle'
 bundle install
 ```
 
