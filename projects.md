@@ -6,8 +6,8 @@ permalink: /projects/
 
 ### TicketRails (2021)
 
-- Developed and deployed a low-cost KDS using off-the-shelf tablets for a
-  family-owned restaurant in Cupertino.
+- Developed and deployed a low-cost Kitchen Display System (KDS) using
+  off-the-shelf tablets for a family-owned restaurant in Cupertino.
 - Reduced tail latency by 3x in the kitchen.
 - Provided online ordering with SMS order progress tracking, which reduced
   customer contact and wait time at the restaurant in response to COVID-19.
