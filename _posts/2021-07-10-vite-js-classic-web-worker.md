@@ -6,9 +6,25 @@ description: How to use classic web worker in Vite JS dev environment.
 categories: programming, js
 ---
 
+By default, when running in dev mode, [Vite](https://vitejs.dev/) loads Web
+Worker script in `module` mode [1]. While this is compiled away in production
+build, it presents a problem if you're developing with legacy web worker scripts
+that must run `classic` mode.
+
+To work around this problem, you can import the web worker script as a string
+and run it using a Blob URL.
+
+```javascript
+import workerString from './worker.js?raw';
+const workerBlob = new Blob([workerString], {type: 'text/javascript'});
+const workerURL = URL.createObjectURL(workerBlob);
+const worker = new Worker(workerURL, {type: 'classic'});
+```
+
 # EDIT (2021-07-23):
 
-I learned that [Blob URLs](https://developer.mozilla.org/en-US/docs/Web/API/Blob)
+A previous version of this post used Data URL instead of Blob URL. Today I
+learned that [Blob URLs](https://developer.mozilla.org/en-US/docs/Web/API/Blob)
 are better suited for this task than Data URLs. This is because Blob URLs can
 only be created by the browser, which means that a web worker running from a
 Blob URL inherits the [cross origin isolation](https://web.dev/coop-coep/)
@@ -23,31 +39,6 @@ trusted. From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_
 > Note: Data URLs are treated as unique opaque origins by modern browsers,
 > rather than inheriting the origin of the settings object responsible for the
 > navigation.
-
-Here's how to run web worker as a Blob URL:
-
-```javascript
-import workerString from './worker.js?raw';
-const workerBlob = new Blob([workerString], {type: 'text/javascript'});
-const workerURL = URL.createObjectURL(workerBlob);
-const worker = new Worker(workerURL, {type: 'classic'});
-```
-
-# Original Post
-
-By default, when running in dev mode, [Vite](https://vitejs.dev/) loads Web
-Worker script in `module` mode [1]. While this is compiled away in production
-build, it presents a problem if you're developing with legacy web worker scripts
-that must run `classic` mode.
-
-To work around this problem, you can import the web worker script as a string
-and run it using a data URL.
-
-```javascript
-import workerString from './worker.js?raw';
-const workerURL = 'data:text/javascript;base64,' + btoa(workerString);
-const worker = new Worker(workerURL, {type: 'classic'});
-```
 
 ## Notes
 
