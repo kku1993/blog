@@ -4,6 +4,15 @@ title: Projects
 permalink: /projects/
 ---
 
+### Mandarin Bits (2021)
+
+- A free, online Python course for beginners.
+- Features interactive programming exercises that can be done completely in the
+  browser.
+- My goal is to provide a risk-free way for everyone to discover programming and
+  consider a career in tech.
+- Link: [Mandarin Bits](https://mandarinbits.com)
+
 ### TicketRails (2021)
 
 - Developed and deployed a low-cost Kitchen Display System (KDS) using
