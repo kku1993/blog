@@ -4,6 +4,12 @@ title: Projects
 permalink: /projects/
 ---
 
+### Chinese Homonyms (2022)
+
+- An online search tool to find Chinese words that have idential or similar
+  sounds (homonyms).
+- Link: [Chinese Homonyms](https://homonyms.optimize.tw)
+
 ### Mandarin Bits (2021)
 
 - A free, online Python course for beginners.
